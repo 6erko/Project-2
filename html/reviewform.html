@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Deze website is voor de periode 2 project">
-    <meta name="author" content="Malik Omri">
+    <meta name="author" content="Berko Emilov">
     <meta name="keywords" content="project 2, opdracht, Mbo, Rijnland, Leiden">
     <title>Project 2</title>
     <link rel="stylesheet" href="../css/global.css">
@@ -17,7 +17,7 @@
 
     <header>
         <section class="Winkel_info">
-            <img class="logo_foto" src="../img/logo.png" alt="logo">
+            <img class="logo_foto" src="../img/logo11.png" alt="logo">
             <section class="Zoeken">
                 <input id="searchBar" class="searchbar" type="text" placeholder="Zoeken...">
                 <a href="contact.html" id="btnSearch" class="btn-search"><i class="fa fa-search"></i></a>
@@ -30,31 +30,12 @@
             <a href="../html/games.html">Games</a>
             <a href="../html/merchandise.html">Merchandise</a>
             <a href="../html/contact.html">Contact</a>
-            <a href="review.php">Reviews</a>
-            <a href="latest.php">Latest Reviews</a>
+            <a href="review.html">Reviews</a>
+            <a href="latest.html">Latest Reviews</a>
         </nav>
     </header>
-    <?php
-    // game review 4
-    session_start();
 
-    if (!isset($_SESSION['reviews'])) {
-        $_SESSION['reviews'] = [];
-    }
-
-    if (isset($_POST["name"], $_POST["game"], $_POST["rating"], $_POST["review"])) {
-        $newReview = [
-            'name' => $_POST["name"],
-            'selectedGame' => $_POST["game"],
-            'rating' => $_POST["rating"],
-            'review' => $_POST["review"]
-        ];
-
-        $_SESSION['reviews'][] = $newReview;
-    }
-    ?>
-
-    <form class="reviewMaker" method="post">
+    <form class="reviewMaker">
         <h2>Reviews</h2>
 
         <label for="name">Naam:</label>
@@ -93,30 +74,37 @@
 
         <button type="submit">Submit Review</button>
     </form>
+
     <main id="rev">
-        <?php
-        $count = 0;
-        foreach ($_SESSION['reviews'] as $review) {
-            echo "<section class='review'>
-              <p class='reviewMsg'>{$review['name']}<br>
-              Selected Game: {$review['selectedGame']}<br>
-              Rating: {$review['rating']}<br>
-              Review: {$review['review']}</p>
-              </section>";
-
-            $count++;
-
-            if ($count % 4 == 0) {
-                echo "</section>";
-            }
-        }
-        // hiervoor hulp gebruikt van docent
-        ?>
+        <section class="review">
+            <p class="reviewMsg">John Doe<br>
+                Selected Game: God of War: Ragnarok<br>
+                Rating: 5<br>
+                Review: Amazing game with stunning graphics and compelling storyline.</p>
+        </section>
+        <section class="review">
+            <p class="reviewMsg">Jane Smith<br>
+                Selected Game: Mortal Kombat<br>
+                Rating: 4<br>
+                Review: Great fighting game with a lot of action. A bit too violent for my taste.</p>
+        </section>
+        <section class="review">
+            <p class="reviewMsg">Alex Johnson<br>
+                Selected Game: The Legend of Zelda: Breath of the Wild<br>
+                Rating: 5<br>
+                Review: Best game I've ever played. The open world is fantastic.</p>
+        </section>
+        <section class="review">
+            <p class="reviewMsg">Chris Lee<br>
+                Selected Game: Pokemon GO<br>
+                Rating: 4<br>
+                Review: Fun and engaging game, perfect for playing on the go.</p>
+        </section>
     </main>
 
     <footer>
-        <img class="beeldmerk" src="../img/logo_beeldmerk.png" alt="beeldmerk">
-        <p class="Copyright_txt">© Copyright by Malik Omri, Mehmet Sezer & Hachim El Amouri 2023</p>
+        <img class="beeldmerk" src="../img/logo111.png" alt="beeldmerk">
+        <p class="Copyright_txt">© Berko Emilov, Nawfal Ammak 2024</p>
         <section class="Media_icons">
             <p class="volg_ons">Volg ons:</p>
             <i class="fa-brands fa-facebook fa-2xl"></i>

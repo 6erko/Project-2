@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #3E4E7C;
+  background-color: #287fc7;
 }
 
 .Winkel_info {
@@ -16,12 +16,12 @@ body {
   margin-bottom: 2%;
 }
 
-.logo_foto {
+.logo11_foto {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 25%;
+  width: 35%;
   margin-top: 10px;
   margin-right: 5%;
 }
@@ -388,25 +388,25 @@ footer {
   gap: 8vw;
 }
 
-.gameReview1PHP {
+.gameReview1html {
   display: flex;
   flex-direction: column;
   gap: 5vw;
 }
 
-.gameReview1Js {
+.gameReview1ht {
   display: flex;
   flex-direction: column;
   gap: 5vw;
 }
 
-.gameReview2PHP {
+.gameReview2html {
   display: flex;
   flex-direction: column;
   gap: 5vw;
 }
 
-.gameReview2Js {
+.gameReview2ht {
   display: flex;
   flex-direction: column;
   gap: 5vw;
@@ -419,20 +419,20 @@ footer {
 }
 
 
-.gameReview3PHP {
+.gameReview3html {
   display: flex;
   flex-direction: column;
   gap: 2.5vw;
   margin-right: 25vw;
 }
 
-.gameReview3Js {
+.gameReview3ht {
   display: flex;
   flex-direction: column;
   gap: 5vw;
 }
 
-.reviewForm {
+.reviewform {
   display: flex;
   justify-content: center;
   align-items: center;

@@ -1,4 +1,4 @@
-// malik gedeelte game review 1 ↓
+// berko gedeelte game review 1 ↓
 
 const game1 = {
   'titel': 'God of War 2',
@@ -60,7 +60,7 @@ switch (selectedGame) {
 gameInfoContainer.innerHTML = html;
 console.log(`Selected Game: ${selectedGame}`);
 
-// hachim gedeelte game review 1 ↓
+// berko gedeelte game review 1 ↓
 
 const game3 = {
   'titel': 'Black ops 3',
@@ -122,7 +122,7 @@ switch (gekozenGame) {
 gameInfoContainer2.innerHTML = htmlPage;
 console.log(`Selected Game: ${gekozenGame}`);
 
-// mehmet gedeelte game review 1 ↓
+// nawfal gedeelte game review 1 ↓
 
 const game5 = {
   'titel': 'Gears Of War Jugment',
@@ -184,7 +184,7 @@ switch (selectedSpel) {
 gameInfoContainer3.innerHTML = HTML;
 console.log(`Selected Game: ${selectedSpel}`);
 
-// malik gedeelte game review 2 ↓
+// nawfal gedeelte game review 2 ↓
 
 const gamefotos = [
   "../img/Reviews_img/PAGE1/ACV1.jpg",
@@ -239,7 +239,7 @@ if (currentGame == games[0]) {
 }
 
 console.log(`Selected Game: ${currentGame.titel}`)
-// mehmet gedeelte game review 2 ↓
+// nawfal gedeelte game review 2 ↓
 
 const game_Fotos = [
   "../img/Reviews_img/PAGE1/ARK1.jpg",
@@ -294,7 +294,7 @@ if (currentSpel == spellen[0]) {
 }
 
 console.log(`Selected Game: ${currentSpel.titel}`)
-// Hachim gedeelte game review 2 ↓
+// berko gedeelte game review 2 ↓
 
 const game_img = [
   "../img/Reviews_img/PAGE1/AM1.jpg",

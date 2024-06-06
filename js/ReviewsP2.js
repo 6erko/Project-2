@@ -1,4 +1,4 @@
-// Malik gedeelte game review 3 ↓
+// berko gedeelte game review 3 ↓
 const game_img = [
   "../img/Reviews_img/PAGE2/FRIDAY1.jpg",
   "../img/Reviews_img/PAGE2/FRIDAY2.jpg",
@@ -69,7 +69,7 @@ switch (selectedGame) {
 
 console.log(`Selected game: ${selectedGame}`)
 
-// Hachim gedeelte game review 3 ↓
+// berko gedeelte game review 3 ↓
 const games_img = [
   "../img/Reviews_img/PAGE2/GOW1.jpg",
   "../img/Reviews_img/PAGE2/GOW2.jpg",
@@ -138,7 +138,7 @@ switch (gekozenSpel) {
 
 console.log(`Selected game: ${gekozenSpel}`);
 
-// Mehmet gedeelte game review 3 ↓
+// nawfal gedeelte game review 3 ↓
 const new_images = [
   "../img/Reviews_img/PAGE2/LOZ1.jpg",
   "../img/Reviews_img/PAGE2/LOZ2.jpg",
